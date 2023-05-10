@@ -1,0 +1,25 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-03-21T17:10:47.3290000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Age": "Age",
+      "Country": "Country",
+      "DOB": "DOB",
+      "Gender": "Gender",
+      "Name": "Name",
+      "Salary": "Salary"
+    },
+    "DatasetName": "b!61i6lMtv50iQnhdKLM2Ap5Q_vvO-7vBMoON4izV-xfnVHQPbgKtQRpW9JFOmTX08.01MKJI7IF7EQ3JNNW5E5BJJJDIURESSG55",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Table1",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
