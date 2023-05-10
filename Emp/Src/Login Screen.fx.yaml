@@ -1,0 +1,74 @@
+"'Login Screen' As screen":
+    Fill: =RGBA(29, 29, 29, 1)
+    LoadingSpinnerColor: =RGBA(12, 126, 44, 1)
+
+    Image1 As image:
+        BorderColor: =RGBA(135, 190, 82, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =306
+        Image: =User().Image
+        RadiusBottomLeft: =Image1.Height
+        RadiusBottomRight: =Image1.Height
+        RadiusTopLeft: =Image1.Height
+        RadiusTopRight: =Image1.Height
+        Width: =300
+        X: =164
+        Y: =220
+        ZIndex: =1
+
+    Rectangle1 As rectangle:
+        BorderColor: =RGBA(135, 190, 82, 1)
+        Fill: =RGBA(12, 126, 44, 1)
+        Height: =106
+        Width: =637
+        Y: =4
+        ZIndex: =2
+
+    Label1 As label:
+        BorderColor: =RGBA(135, 190, 82, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =28
+        Text: ="Employee Information"
+        Width: =560
+        X: =80
+        Y: =22
+        ZIndex: =3
+
+    Label2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(135, 190, 82, 1)
+        Color: =RGBA(255, 255, 255, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =70
+        Size: =21
+        Text: ="Welcome "&User().FullName
+        Width: =560
+        X: =24
+        Y: =613
+        ZIndex: =4
+
+    Button1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(12, 126, 44, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =60
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(12, 126, 44, 1), -20%)
+        OnSelect: =Navigate(BrowseScreen1)
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =24
+        Text: ="Click Here to Login"
+        Width: =320
+        X: =144
+        Y: =753
+        ZIndex: =5
+
